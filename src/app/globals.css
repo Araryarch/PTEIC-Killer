@@ -103,10 +103,14 @@ body {
 
 .result ol li::before,
 .result ul li::before {
-  content: '-';
+  content: "-";
   position: absolute;
   left: 0;
   top: 50%;
   transform: translateY(-50%);
   font-weight: bold;
+}
+
+think {
+  display: none !important;
 }
